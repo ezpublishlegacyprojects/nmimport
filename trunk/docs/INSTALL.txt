@@ -1,0 +1,8 @@
+Tested on eZ Publish 4.0
+
+1. Upload and activate
+
+2. Create a new import format by adding an an element to the array ImportFormat in settings/import.ini.append.php (for instance, "company")
+
+3. Create a new file for your new import format and name it a combination of your import format name and "_importformat.ini.append.php" (for instance "company_importformat.ini.append.php")
+
